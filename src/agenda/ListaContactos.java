@@ -30,4 +30,16 @@ public class ListaContactos {
         }
         
     }
+
+    public boolean buscar(int numero){
+        for(Contacto c:this.agenda){
+            if(c.getNumero()==numero){
+                System.out.println(c);
+                return true;
+            }
+        }
+       
+        System.out.println("El numero introducido no existe ");
+        return false;
+    }
 }
