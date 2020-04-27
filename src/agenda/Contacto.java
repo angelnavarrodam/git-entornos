@@ -35,5 +35,26 @@ public class Contacto {
     public void setApellidos(String apellidos) {
         this.apellidos = apellidos;
     }
+    
+    public String getMail() {
+        return mail;
+    }
+
+    public void setMail(String mail) {
+        this.mail = mail;
+    }
+
+    public int getNumero() {
+        return numero;
+    }
+
+    public void setNumero(int numero) {
+        this.numero = numero;
+    }
+    
  }
+    
+    
+
+ 
      
