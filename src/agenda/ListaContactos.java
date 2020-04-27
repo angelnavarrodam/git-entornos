@@ -42,4 +42,18 @@ public class ListaContactos {
         System.out.println("El numero introducido no existe ");
         return false;
     }
+
+
+
+    public void menu(){
+    System.out.println("\n\n--------MENU-------\n"
+            + "Seleccione su opción:\n"
+            + "1.-Añadir contacto\n"
+            + "2.-Buscar según mail\n"
+            + "3.-Buscar según numero\n"
+            + "4.-Salir");
+    Scanner scan=new Scanner(System.in);
+    int n=scan.nextInt();
+    Scanner scanN=new Scanner(System.in);
+    }
 }
