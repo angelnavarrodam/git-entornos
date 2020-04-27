@@ -56,4 +56,23 @@ public class ListaContactos {
     int n=scan.nextInt();
     Scanner scanN=new Scanner(System.in);
     }
-}
+
+switch(n){
+case 1:
+    System.out.println("\nIntroduzca el nombre del usuario que desea introducir:");
+    String nombre=scanN.nextLine();
+    System.out.println("\nIntroduzca los apellidos del usuario que desea introducir:");
+    String apellidos=scanN.nextLine();
+    System.out.println("\nIntroduzca el mail del usuario que desea introducir:");
+    String mail=scanN.nextLine();
+    System.out.println("\nIntroduzca el numero del usuario que desea introducir:");
+    int numero=scanN.nextInt();
+    this.nuevoContacto(nombre, apellidos, mail, numero);
+    this.menu();
+    break;
+case 2:
+    System.out.println("\nIntroduzca el mail del usuario que desea buscar:");
+    String buscarm=scanN.nextLine();
+    this.buscar(buscarm);
+    this.menu();
+    break;
