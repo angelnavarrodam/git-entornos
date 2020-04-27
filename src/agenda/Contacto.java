@@ -1,5 +1,5 @@
- * @author Usuario
- */
+package agenda;
+
 public class Contacto {
     private String nombre;
     private String apellidos;
